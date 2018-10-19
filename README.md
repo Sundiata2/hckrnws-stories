@@ -2,6 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I also used redux for the state management and react-router for the routes.
 
+## Get started
+
+Clone repo and run `yarn install`
+
+then run `yarn start` and open [http://localhost:3000]
+
 ## Table of Contents
 
 - [Available Scripts](#available-scripts)
