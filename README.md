@@ -6,7 +6,7 @@ I also used redux for the state management and react-router for the routes.
 
 Clone repo and run `yarn install`
 
-then run `yarn start` and open [http://localhost:3000]
+then run `yarn start` and open  [http://localhost:3000](http://localhost:3000) to see the app in your browser
 
 ## Table of Contents
 
