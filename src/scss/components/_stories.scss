@@ -1,0 +1,43 @@
+.top-stories-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .top-stories-header {
+    background-color: $result-item;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: $border-radius;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px;
+  }
+}
+
+.story-item-wrapper {
+  // There is some code re-use here with the other item wrapper, subject to change in the future though.
+  background-color: $result-item;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  border-radius: $border-radius;
+  color: black;
+
+  .author, .title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .middle {
+    margin-bottom: 10px;
+  }
+
+  .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

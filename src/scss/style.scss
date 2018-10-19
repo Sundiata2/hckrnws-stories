@@ -1,0 +1,10 @@
+@import "./_variables.scss";
+@import "./components/_comments.scss";
+@import "./components/_stories.scss";
+@import "./_layout.scss";
+
+
+body {
+  background-color: $main-background;
+  color: $white;
+}

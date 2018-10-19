@@ -1,0 +1,14 @@
+.app-header-wrapper {
+  background-color: $header-background;
+  margin: 30px 30px;
+  padding: 20px 30px;
+  border-radius: $border-radius;
+  display: flex;
+  justify-content: center;
+}
+
+.content-area {
+  background-color: $content-background;
+  margin: 0px 30px 0px 30px;
+  border-radius: $border-radius;
+}

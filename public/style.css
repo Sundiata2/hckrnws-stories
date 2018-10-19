@@ -1,0 +1,93 @@
+.comments-page-wrapper {
+  display: flex;
+  flex-direction: column; }
+  .comments-page-wrapper .comments-page-header {
+    flex-direction: column;
+    background-color: #f39b6d;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    border-radius: 3px;
+    color: black; }
+    .comments-page-wrapper .comments-page-header .header-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 5px;
+      font-size: 16px;
+      font-weight: 800px; }
+    .comments-page-wrapper .comments-page-header a {
+      text-decoration: none;
+      color: black; }
+      .comments-page-wrapper .comments-page-header a:hover {
+        color: blue;
+        text-decoration: underline; }
+
+.comment-item-wrapper {
+  background-color: #f39b6d;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  border-radius: 3px;
+  color: black; }
+  .comment-item-wrapper .author {
+    font-weight: 600;
+    margin-bottom: 10px; }
+  .comment-item-wrapper .middle {
+    margin-bottom: 10px; }
+  .comment-item-wrapper .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+
+.top-stories-wrapper {
+  display: flex;
+  flex-direction: column; }
+  .top-stories-wrapper .top-stories-header {
+    background-color: #f39b6d;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px; }
+
+.story-item-wrapper {
+  background-color: #f39b6d;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  border-radius: 3px;
+  color: black; }
+  .story-item-wrapper .author, .story-item-wrapper .title {
+    font-weight: 600;
+    margin-bottom: 10px; }
+  .story-item-wrapper .middle {
+    margin-bottom: 10px; }
+  .story-item-wrapper .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; }
+
+.app-header-wrapper {
+  background-color: #aabd8c;
+  margin: 30px 30px;
+  padding: 20px 30px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center; }
+
+.content-area {
+  background-color: #e9e3b4;
+  margin: 0px 30px 0px 30px;
+  border-radius: 3px; }
+
+body {
+  background-color: #381d2a;
+  color: #fff; }
